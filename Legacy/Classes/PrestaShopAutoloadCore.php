@@ -347,5 +347,3 @@ class PrestaShopAutoload
         return rtrim($directory, '/\\') . DIRECTORY_SEPARATOR;
     }
 }
-
-spl_autoload_register([PrestaShopAutoload::getInstance(), 'load']);
