@@ -1,0 +1,17 @@
+{
+    "name": "fabien/ps-core-legacy",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Papet",
+            "email": "fabien.papet@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "Legacy/"
+        ]
+    },
+    "require": {}
+}
