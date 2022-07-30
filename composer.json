@@ -11,7 +11,12 @@
     "autoload": {
         "classmap": [
             "Legacy/"
-        ]
+        ],
+        "psr-4": {
+            "PrestaShop\\PrestaShop\\Core\\": "Core/",
+            "PrestaShop\\PrestaShop\\Adapter\\": "Adapter/",
+            "PrestaShopBundle\\": "PrestaShopBundle/"
+        }
     },
     "require": {}
 }
